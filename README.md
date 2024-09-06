@@ -81,6 +81,6 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE
 
 ## Documentación en Español e Ingles / Documentation in Spanish and English
 > [!Note]
-> **Español**: [Documentación del Projecto:](./Readme_ES.md)
+> **Español**: [Documentación del Projecto:](./Documentacion/Readme_ES.md)
 > 
-> **English**: [Project Documentation](./Readme_EN.md)
+> **English**: [Project Documentation](./Documentacion/Readme_EN.md)
