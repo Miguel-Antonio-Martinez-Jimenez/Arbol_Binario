@@ -1,13 +1,11 @@
 # Árbol Binario en C#
 
 ### Descripción
-
 Un Árbol Binario es una estructura de datos jerárquica en la que cada nodo tiene a lo sumo dos hijos: un nodo izquierdo y un nodo derecho. Esta estructura es fundamental en la informática debido a su capacidad para representar relaciones jerárquicas y organizar datos de manera que las operaciones de búsqueda, inserción y eliminación sean altamente eficientes. 
 
 Este proyecto desarrolla un Árbol Binario que soporta múltiples funcionalidades, permitiendo al usuario realizar diversas operaciones sobre el árbol. El Árbol Binario puede utilizarse en diversas aplicaciones, tales como la creación de árboles de expresión en compiladores, la organización de datos jerárquicos, la implementación de estructuras de datos para algoritmos de búsqueda como el Árbol de Búsqueda Binaria (BST), y la realización de recorridos sistemáticos sobre conjuntos de datos ordenados.
 
 El código está diseñado de manera modular, con una clase `Nodo` que define los nodos del árbol y una clase `ArbolBinario` que encapsula toda la lógica de las operaciones posibles en el árbol. Estas clases trabajan en conjunto para proporcionar una interfaz sencilla pero potente para manejar árboles binarios, lo que permite a los desarrolladores utilizar el proyecto como base para estudios académicos, experimentación o desarrollo de software más avanzado.
-
 
 ## Características
 1. **Insertar Nodo:** Permite insertar un nodo en el árbol siguiendo las reglas de los árboles binarios, asegurando que los valores menores se coloquen a la izquierda y los mayores a la derecha.
@@ -23,7 +21,6 @@ El código está diseñado de manera modular, con una clase `Nodo` que define lo
 6. **Calcular Peso Total:** Calcula el número total de nodos presentes en el árbol, proporcionando una medida del tamaño del árbol.
 
 7. **Contar Nodos Hoja:** Cuenta cuántos nodos hoja tiene el árbol, es decir, aquellos nodos que no tienen hijos.
-
 
 ## Requisitos
 - .NET 5.0 o superior.
