@@ -30,10 +30,11 @@ El objetivo del proyecto es desarrollar un Árbol Binario en C# que permita real
 
 ## Guía de Instalación
 1. Clona el repositorio o descarga los archivos.
+   
    ```bash
    git clone https://github.com/Miguel-Antonio-Martinez-Jimenez/Arbol.Binario
-2. Abre el proyecto en tu IDE favorito.
-3. Asegúrate de tener .NET 5.0 instalado y configurado.
+3. Abre el proyecto en tu IDE favorito.
+4. Asegúrate de tener .NET 5.0 instalado y configurado.
 
 ## Conexión con la Base de Datos
 Este proyecto no requiere un sistema de gestión de bases de datos. En su lugar, se emplean archivos para el almacenamiento y manejo de los datos.
@@ -43,17 +44,21 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 
 ## Guía de Uso del Proyecto
 1. Ejecuta el proyecto desde el IDE o desde la terminal usando
+   
    ```bash
    dotnet run
-2. El programa insertará nodos en el árbol y demostrará las funcionalidades implementadas, como la búsqueda de nodos, la obtención del nivel de un nodo, y el recorrido de los caminos del árbol.
+3. El programa insertará nodos en el árbol y demostrará las funcionalidades implementadas, como la búsqueda de nodos, la obtención del nivel de un nodo, y el recorrido de los caminos del árbol.
 
 ## Estructura de Archivos
 - `ArbolBinario.cs`: Clase principal que implementa las funciones del árbol binario.
+- `ArbolBinario.csproj`: Este es el archivo del proyecto de C# de Visual Studio. Contiene información sobre cómo construir el proyecto, las dependencias, y otras configuraciones del proyecto.
 - `Nodo.cs`: Clase que define la estructura de un nodo con su valor y referencias a los nodos hijos (izquierdo y derecho).
 - `Program.cs`: Punto de entrada del programa que ejecuta ejemplos de uso de las funcionalidades del árbol binario.
+- `ArbolBinario.sln`: Este es el archivo de solución de Visual Studio, que agrupa uno o más proyectos (como ArbolBinario.csproj) y administra cómo se construyen y ejecutan.
+  
   ```bash
-   Arbol_Binario
-   ├── ArbolBinario
+   Arbol_Binario/
+   ├── ArbolBinario/
    │   ├── ArbolBinario.cs
    │   ├── ArbolBinario.csproj
    │   ├── Nodo.cs
