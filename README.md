@@ -35,6 +35,9 @@ El objetivo del proyecto es desarrollar un Árbol Binario en C# que permita real
 2. Abre el proyecto en tu IDE favorito.
 3. Asegúrate de tener .NET 5.0 instalado y configurado.
 
+## Conexión con la Base de Datos
+Este proyecto no requiere un sistema de gestión de bases de datos. En su lugar, se emplean archivos para el almacenamiento y manejo de los datos.
+
 ## Accesos o Credenciales
 El proyecto no requiere de accesos o credenciales específicas para su uso. Solo es necesario clonar el repositorio y contar con los requisitos instalados en tu sistema para poder ejecutar el código.
 
@@ -48,6 +51,16 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 - `ArbolBinario.cs`: Clase principal que implementa las funciones del árbol binario.
 - `Nodo.cs`: Clase que define la estructura de un nodo con su valor y referencias a los nodos hijos (izquierdo y derecho).
 - `Program.cs`: Punto de entrada del programa que ejecuta ejemplos de uso de las funcionalidades del árbol binario.
+  ```bash
+   Arbol_Binario
+   ├── ArbolBinario
+   │   ├── ArbolBinario.cs
+   │   ├── ArbolBinario.csproj
+   │   ├── Nodo.cs
+   │   └── Program.cs
+   ├── ArbolBinario.sln
+   ├── LICENSE
+   └── README.md
 
 ## Estado del Proyecto
 **Estado Actual**: `Finalizado`
