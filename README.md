@@ -7,19 +7,16 @@ Este proyecto desarrolla un Árbol Binario que soporta múltiples funcionalidade
 
 El código está diseñado de manera modular, con una clase `Nodo` que define los nodos del árbol y una clase `ArbolBinario` que encapsula toda la lógica de las operaciones posibles en el árbol. Estas clases trabajan en conjunto para proporcionar una interfaz sencilla pero potente para manejar árboles binarios, lo que permite a los desarrolladores utilizar el proyecto como base para estudios académicos, experimentación o desarrollo de software más avanzado.
 
+## Objetivo
+El objetivo del proyecto es desarrollar un Árbol Binario en C# que permita realizar diversas operaciones sobre la estructura, tales como inserción, búsqueda, y recorrido de nodos, además de calcular propiedades como el peso total y contar los nodos hoja. El proyecto está diseñado para ser utilizado como base educativa, experimental, o para el desarrollo de aplicaciones más avanzadas que requieran la organización jerárquica de datos.
+
 ## Características
 1. **Insertar Nodo:** Permite insertar un nodo en el árbol siguiendo las reglas de los árboles binarios, asegurando que los valores menores se coloquen a la izquierda y los mayores a la derecha.
-   
 2. **Buscar Nodo:** Permite verificar si un valor específico está presente en el árbol, retornando verdadero si se encuentra y falso en caso contrario.
-   
 3. **Obtener Nivel de un Nodo:** Calcula el nivel en el que se encuentra un nodo específico dentro del árbol, permitiendo comprender la profundidad de los datos.
-
 4. **Recorrer Camino General:** Muestra todos los caminos posibles desde la raíz hasta las hojas del árbol, lo que es útil para visualizar la estructura completa del árbol.
-
 5. **Recorrer Camino de un Nodo:** Muestra el camino desde la raíz hasta un nodo específico, facilitando la identificación de rutas dentro del árbol.
-
 6. **Calcular Peso Total:** Calcula el número total de nodos presentes en el árbol, proporcionando una medida del tamaño del árbol.
-
 7. **Contar Nodos Hoja:** Cuenta cuántos nodos hoja tiene el árbol, es decir, aquellos nodos que no tienen hijos.
 
 ## Requisitos
@@ -28,36 +25,29 @@ El código está diseñado de manera modular, con una clase `Nodo` que define lo
 > [!Important]
 > Es importante asegurarse de que todos los requisitos estén instalados y configurados correctamente antes de ejecutar este proyecto para evitar problemas y asegurar un funcionamiento óptimo.
 
-## Instalación
+## Guía de Instalación
 1. Clona el repositorio o descarga los archivos.
    ```bash
    git clone https://github.com/Miguel-Antonio-Martinez-Jimenez/Arbol.Binario
 2. Abre el proyecto en tu IDE favorito.
 3. Asegúrate de tener .NET 5.0 instalado y configurado.
 
-## Uso
+## Accesos o Credenciales
+El proyecto no requiere de accesos o credenciales específicas para su uso. Solo es necesario clonar el repositorio y contar con los requisitos instalados en tu sistema para poder ejecutar el código.
+
+## Guía de Uso del Proyecto
 1. Ejecuta el proyecto desde el IDE o desde la terminal usando
    ```bash
    dotnet run
 2. El programa insertará nodos en el árbol y demostrará las funcionalidades implementadas, como la búsqueda de nodos, la obtención del nivel de un nodo, y el recorrido de los caminos del árbol.
 
-## Estructura del Proyecto
+## Estructura de Archivos
 - `ArbolBinario.cs`: Clase principal que implementa las funciones del árbol binario.
 - `Nodo.cs`: Clase que define la estructura de un nodo con su valor y referencias a los nodos hijos (izquierdo y derecho).
 - `Program.cs`: Punto de entrada del programa que ejecuta ejemplos de uso de las funcionalidades del árbol binario.
 
-## Ejemplo de Uso
-    ```csharp
-    ArbolBinario arbol = new ArbolBinario();
-    arbol.InsertarNodo(20);
-    arbol.InsertarNodo(10);
-    arbol.InsertarNodo(32);
-    Console.WriteLine("Buscar 10: " + arbol.BuscarNodo(10)); // Devuelve true si el nodo existe
-    Console.WriteLine("Nivel de 32: " + arbol.NivelNodo(32)); // Devuelve el nivel del nodo
-    arbol.RecorrerCaminoGeneral(); // Muestra todos los caminos desde la raíz hasta las hojas
-
 ## Estado del Proyecto
-**Estado Actual:** `Finalizado.`
+**Estado Actual**: `Finalizado`
 > [!Note]
 > Este proyecto se encuentra en estado **Finalizado**, lo que significa que todas las funcionalidades planeadas han sido implementadas y probadas satisfactoriamente. El código está disponible para su uso y estudio, y se aceptan contribuciones para mejoras o nuevas características.
 <!--### Posibles Estados del Proyecto
@@ -71,13 +61,9 @@ El código está diseñado de manera modular, con una clase `Nodo` que define lo
 > [!Tip]
 > Si deseas contribuir al proyecto, reportar errores o proponer mejoras, te invitamos a abrir un pull request o issue en el repositorio. También puedes contactarme directamente para compartir tus ideas o sugerencias a través de mi correo electrónico miguelantoniomartinezjimenez00@gmail.com. ¡Toda colaboración es bienvenida!
 
+## Autores
+**Tu Nombre**: [MiguelMartinez30 - @DevDarkSonic](https://github.com/Miguel-Antonio-Martinez-Jimenez)
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 #
-
-## Documentación en Español e Ingles / Documentation in Spanish and English
-> [!Note]
-> **Español**: [Documentación del Projecto:](./Documentacion/Readme_ES.md)
-> 
-> **English**: [Project Documentation](./Documentacion/Readme_EN.md)
