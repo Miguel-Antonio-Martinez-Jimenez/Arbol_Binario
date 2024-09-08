@@ -50,10 +50,10 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 3. El programa insertará nodos en el árbol y demostrará las funcionalidades implementadas, como la búsqueda de nodos, la obtención del nivel de un nodo, y el recorrido de los caminos del árbol.
 
 ## Estructura de Archivos
-- `ArbolBinario.cs`: Clase principal que implementa las funciones del árbol binario.
-- `ArbolBinario.csproj`: Este es el archivo del proyecto de C# de Visual Studio. Contiene información sobre cómo construir el proyecto, las dependencias, y otras configuraciones del proyecto.
-- `Nodo.cs`: Clase que define la estructura de un nodo con su valor y referencias a los nodos hijos (izquierdo y derecho).
-- `Program.cs`: Punto de entrada del programa que ejecuta ejemplos de uso de las funcionalidades del árbol binario.
+- `ArbolBinario/ArbolBinario.cs`: Clase principal que implementa las funciones del árbol binario.
+- `ArbolBinario/ArbolBinario.csproj`: Este es el archivo del proyecto de C# de Visual Studio. Contiene información sobre cómo construir el proyecto, las dependencias, y otras configuraciones del proyecto.
+- `ArbolBinario/Nodo.cs`: Clase que define la estructura de un nodo con su valor y referencias a los nodos hijos (izquierdo y derecho).
+- `ArbolBinario/Program.cs`: Punto de entrada del programa que ejecuta ejemplos de uso de las funcionalidades del árbol binario.
 - `ArbolBinario.sln`: Este es el archivo de solución de Visual Studio, que agrupa uno o más proyectos (como ArbolBinario.csproj) y administra cómo se construyen y ejecutan.
   
   ```bash
