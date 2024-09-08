@@ -1,4 +1,7 @@
+<div align="center">
+   
 # Árbol Binario en C#
+</div>
 
 ### Descripción
 Un Árbol Binario es una estructura de datos jerárquica en la que cada nodo tiene a lo sumo dos hijos: un nodo izquierdo y un nodo derecho. Esta estructura es fundamental en la informática debido a su capacidad para representar relaciones jerárquicas y organizar datos de manera que las operaciones de búsqueda, inserción y eliminación sean altamente eficientes. 
